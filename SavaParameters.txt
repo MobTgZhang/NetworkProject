@@ -1,0 +1,63 @@
+Red wine
+"""
+SvmMlp parameters:
+"input_size":10,
+"output_size":1,
+"learning_rate":0.02,
+"train_epoches":500
+"""
+
+"""
+BpNet parameters:
+"input_size":10,
+"hidden_size":53,
+"output_size":1,
+"train_epoches":1750,
+"learning_rate":0.02,
+"""
+
+"""
+RbmMlp
+"input_size":10,
+"output_size":1,
+"learning_rate":0.05,
+"train_epoches":450,
+"pre_train_times":100
+"""
+
+"""
+DBNMlp
+"input_size":10,
+"output_size":1,
+"hidden_list":[900],
+"pretrain_times":6,
+"training_epoches":400,
+"learning_rate":0.002
+"""
+# SVM
+peason:0.493432 
+Jaccard:0.869556 
+Cosine:0.949788 
+MSELoss:0.048826
+# BpNet
+peason:0.489389 
+Jaccard:0.863519 
+Cosine:0.949408 
+MSELoss:0.052247
+# RBM + SVM
+peason:0.506661 
+Jaccard:0.849013 
+Cosine:0.941809 
+MSELoss:0.058608
+# DBN + BpNet
+peason:0.519397 
+Jaccard:0.924981 
+Cosine:0.962728 
+MSELoss:0.023140
+White wine
+
+# SVM
+
+# BPnet
+# RBM + SVM
+# DBN + BpNet
